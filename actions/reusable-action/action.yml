@@ -1,0 +1,9 @@
+author: Cloud Dev
+name: Reusable Action
+description: A reusable action that prints "Hello, world!" to the console.
+
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: echo "Hello, world!"
