@@ -11,4 +11,4 @@ runs:
   using: "composite"
   steps:
     - shell: bash
-      run: echo "Hello, world!"
+      run: echo "Hello, ${{ inputs.name }}!"
