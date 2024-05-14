@@ -2,6 +2,11 @@ author: Cloud Dev
 name: Reusable Action
 description: A reusable action that prints "Hello, world!" to the console.
 
+inputs:
+  name:
+    description: "The name to greet"
+    required: true
+
 runs:
   using: "composite"
   steps:
