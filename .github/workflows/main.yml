@@ -1,0 +1,11 @@
+name: Main
+
+on: [push]
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: cloud-dev-official/github-actions/actions/reusable-action@main
+        with:
+          name: "Cloud Dev"
